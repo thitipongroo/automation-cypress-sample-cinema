@@ -1,33 +1,39 @@
-# Cypress Automation Testing (Cinema Booking)
+# Cypress Cinema Automation
 
 ## Overview
 
-End-to-end test automation project using Cypress for a cinema booking system.
+End-to-end automation testing framework for a cinema booking platform using Cypress.
 
 ## Features
 
-* UI test automation
-* Test scenarios (booking, login, payment)
-* Retry and assertion handling
+- UI automation
+- API interception
+- Reusable Page Object Model
+- CI/CD integration
+- Test retry mechanism
 
-## Tech Stack
+## Architecture
 
-* Cypress
-* JavaScript
+- Page Object Model
+- Custom Cypress Commands
+- Fixtures for test data
+- GitHub Actions CI pipeline
 
 ## Test Coverage
 
-* User login
-* Movie selection
-* Seat booking
-* Payment flow
+- Login
+- Movie selection
+- Seat booking
+- Payment flow
 
-## CI/CD
+## Best Practices
 
-* GitHub Actions integration
-* Automated test runs on push
+- Stable selectors using data-testid
+- No hard-coded waits
+- Isolated test cases
 
 ## Future Improvements
 
-* Visual regression testing
-* Parallel test execution
+- Visual regression testing
+- Parallel execution
+- Cross-browser testing
