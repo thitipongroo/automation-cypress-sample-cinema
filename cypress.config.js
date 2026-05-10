@@ -1,8 +1,8 @@
-const { defineConfig } = require('cypress');
+const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'https://www.sfcinemacity.com',
     viewportWidth: 1280,
     viewportHeight: 720,
     video: false,
@@ -20,8 +20,4 @@ module.exports = defineConfig({
       json: true,
     },
   },
-  env: {
-    // ใส่ environment variables ที่ไม่ sensitive ที่นี่
-    apiUrl: 'http://localhost:3000/api',
-  },
-});
+})
